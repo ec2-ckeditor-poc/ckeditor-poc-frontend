@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'angular-cloud9' title`, () => {
+  it(`should have the 'ckeditor-poc-frontend' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-cloud9');
+    expect(app.title).toEqual('ckeditor-poc-frontend');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-cloud9');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ckeditor-poc-frontend');
   });
 });
