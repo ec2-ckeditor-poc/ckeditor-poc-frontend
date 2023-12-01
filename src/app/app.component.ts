@@ -13,7 +13,7 @@ import { EditorModule } from './editor/editor.module';
 export class AppComponent  {
   contentModel: any;
  
-  title = 'angular-ckeditor5';
+  title = 'dev-angular-ckeditor5';
 
   constructor() {
     
