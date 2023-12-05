@@ -1,3 +1,12 @@
-<h1>^^Hello, {{ title }}</h1>
-<p>Congratulations! Your app is running. 🎉</p>
-<app-editor></app-editor>
+<div class="app-wrapper">
+    <div class="app-title">
+        <h1>^^Hello, {{ title }}</h1>
+        <p>Congratulations! Your app is running. 🎉</p>
+    </div>
+    <div class="app-body">
+        <app-editor></app-editor>
+    </div>
+    <div class="app-footer">
+        <span >Visitor count: {{visitorCount$ | async}}</span>
+    </div>
+</div>

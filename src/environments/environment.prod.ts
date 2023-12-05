@@ -1,0 +1,1 @@
+export const apiURL = "https://15ruwybtx6.execute-api.us-east-1.amazonaws.com/prod/visitorCount"
